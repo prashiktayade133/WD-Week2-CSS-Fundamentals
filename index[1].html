@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 2 CSS Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="home" class="site-header">
+    <nav class="navbar">
+      <h1 class="logo">CSS<span>Week 2</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#selectors">Selectors</a></li>
+        <li><a href="#flexbox">Flexbox</a></li>
+        <li><a href="#grid">Grid</a></li>
+        <li><a href="#project">Project</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <p class="tag">WEB DEVELOPMENT • WEEK 2</p>
+      <h2>CSS Fundamentals</h2>
+      <p>Learn selectors, the box model, Flexbox, Grid and responsive design in one organized webpage.</p>
+      <a class="btn" href="#project">View Mini Project</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="selectors" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Task 1</p>
+        <h2>CSS Selectors & Styling</h2>
+        <p>Examples of element, class, ID and universal selectors with colors, backgrounds, fonts and text alignment.</p>
+      </div>
+      <div class="selector-demo">
+        <article class="demo-card">
+          <h3>Element Selector</h3>
+          <p>Element selectors style HTML tags such as headings and paragraphs.</p>
+        </article>
+        <article class="demo-card highlight-card">
+          <h3>Class Selector</h3>
+          <p>Classes can be reused on multiple elements for consistent styling.</p>
+        </article>
+        <article id="unique-card" class="demo-card">
+          <h3>ID Selector</h3>
+          <p>An ID identifies one unique element on a page.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft-bg">
+      <div class="section-heading">
+        <p class="eyebrow">Task 2</p>
+        <h2>CSS Box Model</h2>
+        <p>Each card demonstrates width, padding, border, margin, radius and shadow.</p>
+      </div>
+      <div class="box-model">
+        <div class="box-content">
+          <span class="box-label">CONTENT</span>
+          <strong>Box Model</strong>
+          <small>Content → Padding → Border → Margin</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="flexbox" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Task 3</p>
+        <h2>Flexbox Layout</h2>
+        <p>A flexible row of cards using justify-content, align-items, gap and responsive wrapping.</p>
+      </div>
+      <div class="flex-container">
+        <article class="feature-card">
+          <div class="icon">01</div>
+          <h3>Selectors</h3>
+          <p>Target elements with reusable CSS rules.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">02</div>
+          <h3>Box Model</h3>
+          <p>Control spacing and boundaries around content.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon">03</div>
+          <h3>Flexbox</h3>
+          <p>Align and distribute items with ease.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="grid" class="section soft-bg">
+      <div class="section-heading">
+        <p class="eyebrow">Task 4</p>
+        <h2>CSS Grid Gallery</h2>
+        <p>Multiple columns and rows demonstrate grid gaps and item placement.</p>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item item-large">Responsive<br>Design</div>
+        <div class="grid-item">HTML</div>
+        <div class="grid-item">CSS</div>
+        <div class="grid-item">Flexbox</div>
+        <div class="grid-item">Grid</div>
+        <div class="grid-item">Media Queries</div>
+      </div>
+    </section>
+
+    <section class="section responsive-section">
+      <div class="section-heading">
+        <p class="eyebrow">Task 5</p>
+        <h2>Responsive Design</h2>
+        <p>This page uses media queries to adapt navigation, typography, cards and grid layout for mobile, tablet and desktop screens.</p>
+      </div>
+      <div class="responsive-demo">
+        <div><strong>Desktop</strong><span>3-column layouts</span></div>
+        <div><strong>Tablet</strong><span>2-column layouts</span></div>
+        <div><strong>Mobile</strong><span>Single-column layouts</span></div>
+      </div>
+    </section>
+
+    <section id="project" class="section project">
+      <div class="project-content">
+        <p class="eyebrow">Task 6 • Mini Project</p>
+        <h2>CSS Learning Hub</h2>
+        <p>A complete mini project combining selectors, box model, Flexbox, Grid and responsive media queries.</p>
+        <div class="project-stats">
+          <div><strong>5+</strong><span>Core CSS Topics</span></div>
+          <div><strong>100%</strong><span>Responsive</span></div>
+          <div><strong>1</strong><span>Complete Project</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created for Week 2 CSS Fundamentals Assignment</p>
+    <p>Student: <strong>Prashik</strong></p>
+  </footer>
+</body>
+</html>
